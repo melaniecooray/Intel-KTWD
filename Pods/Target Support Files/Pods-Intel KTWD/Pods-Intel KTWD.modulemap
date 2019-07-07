@@ -1,0 +1,6 @@
+framework module Pods_Intel_KTWD {
+  umbrella header "Pods-Intel KTWD-umbrella.h"
+
+  export *
+  module * { export * }
+}

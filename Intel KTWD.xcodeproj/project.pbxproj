@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19BB9BB3E664EFFC1DA5C12C /* Pods_Intel_KTWD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF41E84699115CFFD2FE0E8 /* Pods_Intel_KTWD.framework */; };
+		7B3C5AFB22BC57C400800F04 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7B3C5AFA22BC57C400800F04 /* GoogleService-Info.plist */; };
+		7B3C5AFE22BC73D700800F04 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3C5AFD22BC73D700800F04 /* HomeVC.swift */; };
+		7B3C5B0122BC747C00800F04 /* HomeVC - uisetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3C5B0022BC747C00800F04 /* HomeVC - uisetup.swift */; };
+		7B3C5B0722C1C36900800F04 /* ScavengerHuntVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3C5B0622C1C36900800F04 /* ScavengerHuntVC.swift */; };
+		7B3C5B0922C1C37A00800F04 /* CampusMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3C5B0822C1C37A00800F04 /* CampusMapVC.swift */; };
+		7B3C5B0B22C1C38800800F04 /* OpenClassesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3C5B0A22C1C38800800F04 /* OpenClassesVC.swift */; };
+		7B3C5B0D22C1C39600800F04 /* AllWorkshopsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3C5B0C22C1C39600800F04 /* AllWorkshopsVC.swift */; };
+		7B3C5B0F22C433A400800F04 /* ScavengerHuntVC - uisetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3C5B0E22C433A400800F04 /* ScavengerHuntVC - uisetup.swift */; };
+		7B46BF6622D296E700EA5D31 /* QuestionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B46BF6522D296E700EA5D31 /* QuestionVC.swift */; };
+		7BDE6B9422BAABE00031F146 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDE6B9322BAABE00031F146 /* AppDelegate.swift */; };
+		7BDE6B9622BAABE00031F146 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDE6B9522BAABE00031F146 /* ViewController.swift */; };
+		7BDE6B9922BAABE00031F146 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BDE6B9722BAABE00031F146 /* Main.storyboard */; };
+		7BDE6B9B22BAABE10031F146 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BDE6B9A22BAABE10031F146 /* Assets.xcassets */; };
+		7BDE6B9E22BAABE10031F146 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BDE6B9C22BAABE10031F146 /* LaunchScreen.storyboard */; };
+		7BDE6BA922BAABE10031F146 /* Intel_KTWDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDE6BA822BAABE10031F146 /* Intel_KTWDUITests.swift */; };
+		BD00802BB7981DF1B072BC8C /* Pods_Intel_KTWDUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 113B3319B29386B7BCD107A7 /* Pods_Intel_KTWDUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BDE6BA522BAABE10031F146 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BDE6B8822BAABE00031F146 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BDE6B8F22BAABE00031F146;
+			remoteInfo = "Intel KTWD";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		113B3319B29386B7BCD107A7 /* Pods_Intel_KTWDUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Intel_KTWDUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78F4CFB6B8295051AF8753FA /* Pods-Intel KTWDUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Intel KTWDUITests.release.xcconfig"; path = "Target Support Files/Pods-Intel KTWDUITests/Pods-Intel KTWDUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7B3C5AFA22BC57C400800F04 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7B3C5AFD22BC73D700800F04 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		7B3C5B0022BC747C00800F04 /* HomeVC - uisetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeVC - uisetup.swift"; sourceTree = "<group>"; };
+		7B3C5B0622C1C36900800F04 /* ScavengerHuntVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScavengerHuntVC.swift; sourceTree = "<group>"; };
+		7B3C5B0822C1C37A00800F04 /* CampusMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampusMapVC.swift; sourceTree = "<group>"; };
+		7B3C5B0A22C1C38800800F04 /* OpenClassesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenClassesVC.swift; sourceTree = "<group>"; };
+		7B3C5B0C22C1C39600800F04 /* AllWorkshopsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllWorkshopsVC.swift; sourceTree = "<group>"; };
+		7B3C5B0E22C433A400800F04 /* ScavengerHuntVC - uisetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScavengerHuntVC - uisetup.swift"; sourceTree = "<group>"; };
+		7B46BF6522D296E700EA5D31 /* QuestionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionVC.swift; sourceTree = "<group>"; };
+		7BDE6B9022BAABE00031F146 /* Intel KTWD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Intel KTWD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BDE6B9322BAABE00031F146 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7BDE6B9522BAABE00031F146 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7BDE6B9822BAABE00031F146 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BDE6B9A22BAABE10031F146 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BDE6B9D22BAABE10031F146 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BDE6B9F22BAABE10031F146 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BDE6BA422BAABE10031F146 /* Intel KTWDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Intel KTWDUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BDE6BA822BAABE10031F146 /* Intel_KTWDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intel_KTWDUITests.swift; sourceTree = "<group>"; };
+		7BDE6BAA22BAABE10031F146 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9C51604D5C10DCFE8895DBD /* Pods-Intel KTWD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Intel KTWD.debug.xcconfig"; path = "Target Support Files/Pods-Intel KTWD/Pods-Intel KTWD.debug.xcconfig"; sourceTree = "<group>"; };
+		CD6915A88800E5B07AF0E1C3 /* Pods-Intel KTWD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Intel KTWD.release.xcconfig"; path = "Target Support Files/Pods-Intel KTWD/Pods-Intel KTWD.release.xcconfig"; sourceTree = "<group>"; };
+		DEF41E84699115CFFD2FE0E8 /* Pods_Intel_KTWD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Intel_KTWD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF3E3446859A74CBA8FA33E4 /* Pods-Intel KTWDUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Intel KTWDUITests.debug.xcconfig"; path = "Target Support Files/Pods-Intel KTWDUITests/Pods-Intel KTWDUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BDE6B8D22BAABE00031F146 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19BB9BB3E664EFFC1DA5C12C /* Pods_Intel_KTWD.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BDE6BA122BAABE10031F146 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD00802BB7981DF1B072BC8C /* Pods_Intel_KTWDUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00D4B386969250891E79F5F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9C51604D5C10DCFE8895DBD /* Pods-Intel KTWD.debug.xcconfig */,
+				CD6915A88800E5B07AF0E1C3 /* Pods-Intel KTWD.release.xcconfig */,
+				EF3E3446859A74CBA8FA33E4 /* Pods-Intel KTWDUITests.debug.xcconfig */,
+				78F4CFB6B8295051AF8753FA /* Pods-Intel KTWDUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		554B989139A9B75BD8080704 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEF41E84699115CFFD2FE0E8 /* Pods_Intel_KTWD.framework */,
+				113B3319B29386B7BCD107A7 /* Pods_Intel_KTWDUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B3C5AFC22BC73C100800F04 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7B46BF6422D296D200EA5D31 /* QuestionVC */,
+				7B3C5B0522C1C33F00800F04 /* AllWorkshopsVC */,
+				7B3C5B0422C1C33600800F04 /* OpenClassesVC */,
+				7B3C5B0322C1C32B00800F04 /* CampusMapVC */,
+				7B3C5B0222C1C31700800F04 /* ScavengerHuntVC */,
+				7B3C5AFF22BC746300800F04 /* HomeVC */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7B3C5AFF22BC746300800F04 /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				7B3C5AFD22BC73D700800F04 /* HomeVC.swift */,
+				7B3C5B0022BC747C00800F04 /* HomeVC - uisetup.swift */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		7B3C5B0222C1C31700800F04 /* ScavengerHuntVC */ = {
+			isa = PBXGroup;
+			children = (
+				7B3C5B0622C1C36900800F04 /* ScavengerHuntVC.swift */,
+				7B3C5B0E22C433A400800F04 /* ScavengerHuntVC - uisetup.swift */,
+			);
+			path = ScavengerHuntVC;
+			sourceTree = "<group>";
+		};
+		7B3C5B0322C1C32B00800F04 /* CampusMapVC */ = {
+			isa = PBXGroup;
+			children = (
+				7B3C5B0822C1C37A00800F04 /* CampusMapVC.swift */,
+			);
+			path = CampusMapVC;
+			sourceTree = "<group>";
+		};
+		7B3C5B0422C1C33600800F04 /* OpenClassesVC */ = {
+			isa = PBXGroup;
+			children = (
+				7B3C5B0A22C1C38800800F04 /* OpenClassesVC.swift */,
+			);
+			path = OpenClassesVC;
+			sourceTree = "<group>";
+		};
+		7B3C5B0522C1C33F00800F04 /* AllWorkshopsVC */ = {
+			isa = PBXGroup;
+			children = (
+				7B3C5B0C22C1C39600800F04 /* AllWorkshopsVC.swift */,
+			);
+			path = AllWorkshopsVC;
+			sourceTree = "<group>";
+		};
+		7B46BF6422D296D200EA5D31 /* QuestionVC */ = {
+			isa = PBXGroup;
+			children = (
+				7B46BF6522D296E700EA5D31 /* QuestionVC.swift */,
+			);
+			path = QuestionVC;
+			sourceTree = "<group>";
+		};
+		7BDE6B8722BAABE00031F146 = {
+			isa = PBXGroup;
+			children = (
+				7BDE6B9222BAABE00031F146 /* Intel KTWD */,
+				7BDE6BA722BAABE10031F146 /* Intel KTWDUITests */,
+				7BDE6B9122BAABE00031F146 /* Products */,
+				00D4B386969250891E79F5F4 /* Pods */,
+				554B989139A9B75BD8080704 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7BDE6B9122BAABE00031F146 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BDE6B9022BAABE00031F146 /* Intel KTWD.app */,
+				7BDE6BA422BAABE10031F146 /* Intel KTWDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BDE6B9222BAABE00031F146 /* Intel KTWD */ = {
+			isa = PBXGroup;
+			children = (
+				7B3C5AFC22BC73C100800F04 /* Controllers */,
+				7BDE6B9322BAABE00031F146 /* AppDelegate.swift */,
+				7BDE6B9522BAABE00031F146 /* ViewController.swift */,
+				7BDE6B9722BAABE00031F146 /* Main.storyboard */,
+				7BDE6B9A22BAABE10031F146 /* Assets.xcassets */,
+				7BDE6B9C22BAABE10031F146 /* LaunchScreen.storyboard */,
+				7BDE6B9F22BAABE10031F146 /* Info.plist */,
+				7B3C5AFA22BC57C400800F04 /* GoogleService-Info.plist */,
+			);
+			path = "Intel KTWD";
+			sourceTree = "<group>";
+		};
+		7BDE6BA722BAABE10031F146 /* Intel KTWDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7BDE6BA822BAABE10031F146 /* Intel_KTWDUITests.swift */,
+				7BDE6BAA22BAABE10031F146 /* Info.plist */,
+			);
+			path = "Intel KTWDUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BDE6B8F22BAABE00031F146 /* Intel KTWD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BDE6BAD22BAABE10031F146 /* Build configuration list for PBXNativeTarget "Intel KTWD" */;
+			buildPhases = (
+				46DAC0D7EAEA3E5CFF38BBE3 /* [CP] Check Pods Manifest.lock */,
+				7BDE6B8C22BAABE00031F146 /* Sources */,
+				7BDE6B8D22BAABE00031F146 /* Frameworks */,
+				7BDE6B8E22BAABE00031F146 /* Resources */,
+				93511C4067F292188BE0DC41 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Intel KTWD";
+			productName = "Intel KTWD";
+			productReference = 7BDE6B9022BAABE00031F146 /* Intel KTWD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BDE6BA322BAABE10031F146 /* Intel KTWDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BDE6BB022BAABE10031F146 /* Build configuration list for PBXNativeTarget "Intel KTWDUITests" */;
+			buildPhases = (
+				294EDD7BBAB603A7FA69438C /* [CP] Check Pods Manifest.lock */,
+				7BDE6BA022BAABE10031F146 /* Sources */,
+				7BDE6BA122BAABE10031F146 /* Frameworks */,
+				7BDE6BA222BAABE10031F146 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BDE6BA622BAABE10031F146 /* PBXTargetDependency */,
+			);
+			name = "Intel KTWDUITests";
+			productName = "Intel KTWDUITests";
+			productReference = 7BDE6BA422BAABE10031F146 /* Intel KTWDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BDE6B8822BAABE00031F146 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Melanie Cooray";
+				TargetAttributes = {
+					7BDE6B8F22BAABE00031F146 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					7BDE6BA322BAABE10031F146 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 7BDE6B8F22BAABE00031F146;
+					};
+				};
+			};
+			buildConfigurationList = 7BDE6B8B22BAABE00031F146 /* Build configuration list for PBXProject "Intel KTWD" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BDE6B8722BAABE00031F146;
+			productRefGroup = 7BDE6B9122BAABE00031F146 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BDE6B8F22BAABE00031F146 /* Intel KTWD */,
+				7BDE6BA322BAABE10031F146 /* Intel KTWDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BDE6B8E22BAABE00031F146 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BDE6B9E22BAABE10031F146 /* LaunchScreen.storyboard in Resources */,
+				7B3C5AFB22BC57C400800F04 /* GoogleService-Info.plist in Resources */,
+				7BDE6B9B22BAABE10031F146 /* Assets.xcassets in Resources */,
+				7BDE6B9922BAABE00031F146 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BDE6BA222BAABE10031F146 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		294EDD7BBAB603A7FA69438C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Intel KTWDUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46DAC0D7EAEA3E5CFF38BBE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Intel KTWD-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93511C4067F292188BE0DC41 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Intel KTWD/Pods-Intel KTWD-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Intel KTWD/Pods-Intel KTWD-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BDE6B8C22BAABE00031F146 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B3C5AFE22BC73D700800F04 /* HomeVC.swift in Sources */,
+				7B3C5B0F22C433A400800F04 /* ScavengerHuntVC - uisetup.swift in Sources */,
+				7B3C5B0D22C1C39600800F04 /* AllWorkshopsVC.swift in Sources */,
+				7BDE6B9622BAABE00031F146 /* ViewController.swift in Sources */,
+				7B3C5B0B22C1C38800800F04 /* OpenClassesVC.swift in Sources */,
+				7B3C5B0722C1C36900800F04 /* ScavengerHuntVC.swift in Sources */,
+				7BDE6B9422BAABE00031F146 /* AppDelegate.swift in Sources */,
+				7B3C5B0922C1C37A00800F04 /* CampusMapVC.swift in Sources */,
+				7B46BF6622D296E700EA5D31 /* QuestionVC.swift in Sources */,
+				7B3C5B0122BC747C00800F04 /* HomeVC - uisetup.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BDE6BA022BAABE10031F146 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BDE6BA922BAABE10031F146 /* Intel_KTWDUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BDE6BA622BAABE10031F146 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BDE6B8F22BAABE00031F146 /* Intel KTWD */;
+			targetProxy = 7BDE6BA522BAABE10031F146 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7BDE6B9722BAABE00031F146 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BDE6B9822BAABE00031F146 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7BDE6B9C22BAABE10031F146 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BDE6B9D22BAABE10031F146 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BDE6BAB22BAABE10031F146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7BDE6BAC22BAABE10031F146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BDE6BAE22BAABE10031F146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9C51604D5C10DCFE8895DBD /* Pods-Intel KTWD.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P7XN857XWL;
+				INFOPLIST_FILE = "Intel KTWD/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.Intel-KTWD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BDE6BAF22BAABE10031F146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD6915A88800E5B07AF0E1C3 /* Pods-Intel KTWD.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P7XN857XWL;
+				INFOPLIST_FILE = "Intel KTWD/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.Intel-KTWD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7BDE6BB122BAABE10031F146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF3E3446859A74CBA8FA33E4 /* Pods-Intel KTWDUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P7XN857XWL;
+				INFOPLIST_FILE = "Intel KTWDUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.Intel-KTWDUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Intel KTWD";
+			};
+			name = Debug;
+		};
+		7BDE6BB222BAABE10031F146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78F4CFB6B8295051AF8753FA /* Pods-Intel KTWDUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P7XN857XWL;
+				INFOPLIST_FILE = "Intel KTWDUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.Intel-KTWDUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Intel KTWD";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BDE6B8B22BAABE00031F146 /* Build configuration list for PBXProject "Intel KTWD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BDE6BAB22BAABE10031F146 /* Debug */,
+				7BDE6BAC22BAABE10031F146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BDE6BAD22BAABE10031F146 /* Build configuration list for PBXNativeTarget "Intel KTWD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BDE6BAE22BAABE10031F146 /* Debug */,
+				7BDE6BAF22BAABE10031F146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BDE6BB022BAABE10031F146 /* Build configuration list for PBXNativeTarget "Intel KTWDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BDE6BB122BAABE10031F146 /* Debug */,
+				7BDE6BB222BAABE10031F146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BDE6B8822BAABE00031F146 /* Project object */;
+}
